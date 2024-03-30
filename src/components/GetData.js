@@ -18,8 +18,8 @@ import Projects from "./projects/Projects.jsx"
        
     // }
 
-    const response =  await fetch(url)
-    const data = await response.json()
+    let response =  await fetch(url)
+    let data = await response.json()
    
     // console.log(data)
     // console.log(data.user.skills[0].image.url)
