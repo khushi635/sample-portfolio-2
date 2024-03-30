@@ -1,0 +1,114 @@
+
+#Nav-Contact {
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.contact-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-contact {
+    margin-top: 1rem;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#contact {
+    color: #D1701F;
+    position: relative;
+    top:20px;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+#Nav-Contact p {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    line-height: 2.25rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.contact-name {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.about-contact-sec2 {
+    margin-right: 2rem;
+}
+.contact-desc {
+    color: #767676;
+}
+
+form {
+    margin-top: 150px;
+}
+
+form input {
+    width: 600px;
+    height: 40px;
+    border-radius: 7px;
+    padding-left: 1rem;
+    border: 1px solid lightgray;
+    font-size: medium;
+}
+textarea {
+    width: 600px;
+    border: 1px solid lightgray;
+    /* border-radius: 1rem; */
+    padding: 1rem;
+    font-size: medium;
+    color: gray;
+}
+
+#btn {
+    width: 180px;
+    height: 60px;
+    border-radius: 2rem;
+    background-color: #D1701F;
+    color: white;
+    border: none;
+    font-size: 1.15rem;
+}
+
+/* media query for tablet responsiveness */
+@media screen and (max-width:720px){
+    #Nav-Contact p,  #contact  {
+        width: 200%;
+        position: relative;
+        right: 80px;
+       }
+       .contact-sec {
+        width: 200%;
+       position: relative;
+       right: 80px;
+       }
+       .about-contact {
+        width: 200%;
+        margin-right: 80px;
+       }
+    
+       .about-contact-sec2 {
+        margin-left: 2rem;
+       }
+}
+
+
+/* media query for mobile responsiveness */
+@media screen and (max-width: 420px) {
+    #Nav-Contact p {
+        width: 500%;
+    }
+    .contact-sec {
+        width: 500%;
+    }
+}
