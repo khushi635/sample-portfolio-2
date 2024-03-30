@@ -41,4 +41,8 @@
     .social-links {
         margin-right: 50%;
     }
+
+    .footer p {
+        font-size: 2.5rem;
+    }
 }

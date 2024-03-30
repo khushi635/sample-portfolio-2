@@ -115,11 +115,32 @@ body {
 
 /* media query for mobile responsiveness */
 @media screen and (max-width: 420px){
+    .about-head {
+        font-weight: 800;
+        width: 200%;
+    }
+
+    .about-para {
+        font-size: 2.5rem;
+        width: 300%;
+        margin-left: 5rem;
+    }
 
     .about-desc {
         width: 400%;
-        height: 900px;
+        height: 1050px;
         margin-right: 5rem;
+        padding-left: 9rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    .work-name {
+        font-size: 2.75rem;
+        font-weight: 800;
+    }
+
+    .work-desc {
+        font-size: 40px;
     }
 
     .img-icon img {
@@ -127,12 +148,23 @@ body {
         width: 45%;
         margin-left: 5rem;
         margin-bottom: 1rem;
+        padding-bottom: 2rem;
         border-radius: 6px;
         box-shadow: 4px 4px 8px lightgray;
     }
 
     .price {
-        margin-right: 24rem;
+        margin-right: 12rem;
+        font-size: 40px;
     }
+    .charge {
+        display: inline-block;
+        font-size: 3rem;
+    }
+    /* #img-icon-img1 {
+       width: 320px;
+       margin-right: 15rem;
+       padding-bottom: 2rem;
+    } */
 
 }

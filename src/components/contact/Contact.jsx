@@ -19,7 +19,7 @@ export default function Contact() {
                 </div>
                 <div className="about-contact-sec2">
                     <span className="contact-name">Location</span><br></br>
-                    <span className="contact-desc">Los Angeles , America</span>
+                    <span className="contact-desc">Los Angeles, America</span>
                 </div>
             </div>
 

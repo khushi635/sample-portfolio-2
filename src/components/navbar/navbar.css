@@ -131,8 +131,14 @@ button {
 
 /* media query for mobile responsiveness */
 @media screen and (max-width: 420px){
+
+    #name {
+        display: inline-block;
+        font-size: 3rem;
+    }
     #checkbtn {
         position: relative;
         left: 500px;
+        font-size: 3rem;
     }
 }

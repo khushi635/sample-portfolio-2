@@ -68,8 +68,8 @@
   }
   
   .project-sec img:hover {
-      width: 420px;
-      transition: 0.7s all;
+      /* width: 420px;
+      transition: 0.7s all; */
       opacity: 0.7;
   }
   
@@ -95,7 +95,7 @@
   /* media query for mobile responsiveness */
   @media screen and (max-width: 420px){
       #projects-main {
-          margin-top: 2800px;
+          margin-top: 3400px;
       } 
       #projects-main h2 {
           width: 400%;
@@ -103,5 +103,14 @@
       }
       .project-sec img {
           width: 400%;
+          margin-left: 5rem;
+      }
+      #projects-main p {
+        font-size: 3rem;
+        margin-left: 5rem;
+      }
+      #projects-main h2 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
       }
   }

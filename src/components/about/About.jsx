@@ -19,7 +19,7 @@ export default function About() {
 
                 </div>
                 <div className="img-icon">
-                    <img src={wholeData.services[0].imgIcon} alt="" width="140px"></img>
+                    <img id="img-icon-img1" src={wholeData.services[0].imgIcon} alt="" width="140px"></img>
                 </div>
 
             </div>
