@@ -100,10 +100,10 @@
 /* media query for mobile responsiveness */
 @media screen and (max-width: 420px) {
     .testimonial {
-        margin-right: 1rem;
+        margin-right: 4rem;
     }
     .review {
-        width: 500%;
+        width: 300%;
        
     }
 }
